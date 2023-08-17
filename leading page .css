@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://newitsystems.co.nz/i59.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+  }
+  header{
+    display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: black;
+  padding: 15px;
+}
+.header-title{
+     font-weight: 300px;
+     font-size: 35px;
+     color: wheat;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+ padding: 400px;
+ color: black;
+}
+
+
+span{
+  margin-right: 20px;
+}
+img{
+  margin-right: 800%;
+  margin-top: 20%;
+  margin-bottom: -27%;
+  height: 500px;
+  width: 600px;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 2fr;
+  font-family: Arial;
+  height: 250px;
+}
+.footer-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.title{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+}
